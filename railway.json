@@ -5,7 +5,6 @@
     "buildCommand": "pnpm build"
   },
   "deploy": {
-    "preDeployCommand": ["pnpm db:push"],
     "startCommand": "pnpm start",
     "healthcheckPath": "/",
     "healthcheckTimeout": 100,
